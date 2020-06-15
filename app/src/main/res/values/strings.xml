@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nano Tales</string>
+    <string name="input_username">"Username / Email / Phone Number"</string>
+    <string name = "input_password">"Password</string>
+    <string name="forget_password">"Forgot Password ?</string>
+    <string name="create_account">"New User? Create Account  </string>
+</resources>
