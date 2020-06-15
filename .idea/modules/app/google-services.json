@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "297943364788",
+    "firebase_url": "https://nano-tales.firebaseio.com",
+    "project_id": "nano-tales",
+    "storage_bucket": "nano-tales.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297943364788:android:fa0a5fb42b2d1faf4893e1",
+        "android_client_info": {
+          "package_name": "app.nanotales.in.nanotales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297943364788-ogni1njb2nhfcf99bi1k6cof60haaod5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.nanotales.in.nanotales",
+            "certificate_hash": "ca98fed14a512654526e0d9073643af278d42072"
+          }
+        },
+        {
+          "client_id": "297943364788-g505dug2sdoq2891q28s2gr91ppk0kpc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJR_C0uP2S50lF_LFG83NG09cgaKppGdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297943364788-g505dug2sdoq2891q28s2gr91ppk0kpc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

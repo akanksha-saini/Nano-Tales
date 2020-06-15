@@ -1,7 +1,17 @@
 <resources>
     <string name="app_name">Nano Tales</string>
-    <string name="input_username">"Username / Email / Phone Number"</string>
-    <string name = "input_password">"Password</string>
-    <string name="forget_password">"Forgot Password ?</string>
-    <string name="create_account">"New User? Create Account  </string>
+    <string name="input_user">Username / Email / Phone Number</string>
+    <string name = "input_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="forget_password">Forgot Password ?</string>
+    <string name="create_account">New User? Create Account  </string>
+
+    <!--Create account-->
+    <string name="input_name">Enter full name</string>
+    <string name="input_username">"Enter user name</string>
+    <string name="input_confirm_password">"Confirm password</string>
+    <string name="input_phoneno">"Enter phone number</string>
+    <string name="input_email">"Enter email ID</string>
+    <string name="btn_create_acc">Create Account</string>
+
 </resources>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <View
@@ -58,36 +59,126 @@
         app:layout_constraintTop_toBottomOf="@+id/view2"
         app:srcCompat="@drawable/ic_person" />
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="300dp"
-        android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/inputName"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="32"
-            android:layout_marginRight="32"
-            android:background="@drawable/round_button"
-            android:drawableStart="@drawable/ic_input_person_name"
-            android:drawableLeft="@drawable/ic_input_person_name"
-            android:drawablePadding="15"
-            android:ems="10"
-            android:hint="Name"
-            android:inputType="textPersonName"
-            android:padding="15" />
+            android:layout_marginTop="300dp"
+            android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/input_username"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
-    </LinearLayout>
+            <EditText
+                android:id="@+id/inputName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:background="@drawable/round_button"
+                android:drawableStart="@drawable/ic_input_person_name"
+                android:drawableLeft="@drawable/ic_input_person_name"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="@string/input_name"
+                android:inputType="textPersonName"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/input_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="32dp"
+                android:background="@drawable/round_button"
+                android:drawableStart="@drawable/ic_username"
+                android:drawableLeft="@drawable/ic_username"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="@string/input_username"
+                android:inputType="textPersonName"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/input_phone_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="32dp"
+                android:background="@drawable/round_button"
+                android:drawableStart="@drawable/ic_phone"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Enter Phone number"
+                android:inputType="textPersonName"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="32dp"
+                android:background="@drawable/round_button"
+                android:drawableStart="@drawable/ic_email"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="@string/input_email"
+                android:inputType="textPersonName"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="32dp"
+                android:background="@drawable/round_button"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="@string/input_password"
+                android:inputType="textPassword"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/input_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="32dp"
+                android:background="@drawable/round_button"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="@string/input_confirm_password"
+                android:inputType="numberPassword"
+                android:padding="15dp" />
+
+            <Button
+                android:id="@+id/btn_create_acc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="32dp"
+                android:background="@drawable/round_bg"
+                android:text="@string/btn_create_acc"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
