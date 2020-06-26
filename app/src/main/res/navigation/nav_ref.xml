@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_ref"
+    app:startDestination="@id/home_page">
+
+    <fragment
+        android:id="@+id/home_page"
+        android:name="app.nanotales.in.nanotales.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/search_page"
+        android:name="app.nanotales.in.nanotales.Search"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/create_page"
+        android:name="app.nanotales.in.nanotales.Create"
+        android:label="fragment_create"
+        tools:layout="@layout/fragment_create" />
+    <fragment
+        android:id="@+id/notif_page"
+        android:name="app.nanotales.in.nanotales.Notif"
+        android:label="fragment_notif"
+        tools:layout="@layout/fragment_notif" />
+    <fragment
+        android:id="@+id/profile_page"
+        android:name="app.nanotales.in.nanotales.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

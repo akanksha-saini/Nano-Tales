@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_page"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:visible="true"
+        android:title="@string/home" />
+    <item
+        android:id ="@+id/search_page"
+        android:enabled ="true"
+        android:title="@string/search"
+        android:visible="true"
+        android:icon="@drawable/ic_search"
+        />
+    <item
+        android:id ="@+id/create_page"
+        android:enabled ="true"
+        android:title="@string/create"
+        android:visible="true"
+        android:icon="@drawable/ic_create"
+        />
+    <item
+        android:id ="@+id/notif_page"
+        android:enabled ="true"
+        android:title="@string/notifications"
+        android:visible="true"
+        android:icon="@drawable/ic_notifications"
+        />
+    <item
+        android:id ="@+id/profile_page"
+        android:enabled ="true"
+        android:title="@string/profile"
+        android:visible="true"
+        android:icon="@drawable/ic_input_person_name"
+        />
+</menu>

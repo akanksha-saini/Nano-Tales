@@ -1,17 +1,34 @@
 <resources>
     <string name="app_name">Nano Tales</string>
-    <string name="input_user">Username / Email / Phone Number</string>
-    <string name = "input_password">Password</string>
+    <string name="input_user">Username / Email </string>
+    <string name="input_password">Password</string>
     <string name="btn_login">Login</string>
     <string name="forget_password">Forgot Password ?</string>
     <string name="create_account">New User? Create Account  </string>
+    <!--Facebook login-->
+    <string name="facebook_app_id">296431291499120</string>
+    <string name="fb_login_protocol_scheme">fb296431291499120</string>
+
 
     <!--Create account-->
     <string name="input_name">Enter full name</string>
-    <string name="input_username">"Enter user name</string>
+    <string name="input_username">"Enter user name /pen name</string>
     <string name="input_confirm_password">"Confirm password</string>
     <string name="input_phoneno">"Enter phone number</string>
     <string name="input_email">"Enter email ID</string>
     <string name="btn_create_acc">Create Account</string>
+
+    <!--Bottom_navigation-->
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="create">Create</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+
+    <!--fragment_Create-->
+    <string name="compose_top_title">Compose</string>
+
+    <!--user_quote-->
+    <string name="choose_gallery">Image from gallery</string>
 
 </resources>
